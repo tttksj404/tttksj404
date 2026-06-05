@@ -17,7 +17,7 @@ The common thread is practical: collect data, build reliable systems, apply AI w
 
 | Hiring signal | What I am preparing | Portfolio evidence |
 | --- | --- | --- |
-| Python, SQL, backend/API | Data services, Django/FastAPI-style APIs, local automation tools | [StockPulse AI](https://github.com/tttksj404/stockpulse-ai), [company-news-analyzer](https://github.com/tttksj404/company-news-analyzer) |
+| Python, SQL, backend/API | Data services, Django/FastAPI-style APIs, local automation tools | [StockPulse AI](https://github.com/tttksj404/stockpulse-ai) and private finance-analysis tools |
 | Data analysis and decision support | News, market, and business data workflows with dashboards and review loops | [StockPulse AI](https://github.com/tttksj404/stockpulse-ai), [strategy-arena](https://github.com/tttksj404/strategy-arena) |
 | AI search, RAG, and LLM application | Retrieval-based reasoning, document/search automation, schema-grounded outputs | Sentinel-30 voice-phishing AI demo in [AI-](https://github.com/tttksj404/AI-) |
 | Evaluation and quality gates | Test-first validation, AI-output heuristics, schema checks, benchmark design | [quiz-validator](https://github.com/tttksj404/quiz-validator) |
@@ -61,3 +61,8 @@ Repo: [github.com/tttksj404/quiz-validator](https://github.com/tttksj404/quiz-va
 3. Add RAG/evaluation reports that show retrieval quality, hallucination controls, schema pass rates, and operational risks.
 4. Keep project READMEs aligned with hiring requirements: problem, data, system design, AI method, verification, and limitations.
 
+## Repository Guide
+
+- Public flagship repositories are written for recruiters and collaborators.
+- Private repositories contain larger local experiments, operational scripts, or datasets that are not suitable for a public profile.
+- I do not present investment or security demos as production advice. The portfolio focuses on system design, data workflows, validation, and responsible limitations.
