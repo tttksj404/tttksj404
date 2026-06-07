@@ -57,9 +57,18 @@ Repo: [github.com/tttksj404/quiz-validator](https://github.com/tttksj404/quiz-va
 ## Current Preparation Focus
 
 1. Strengthen SQL and Python data analysis with small, reproducible datasets.
-2. Turn finance-domain projects into clear case studies with architecture diagrams and screenshots.
+2. Turn finance-domain projects into clear case studies with project-specific interaction maps, not just technology lists.
 3. Add RAG/evaluation reports that show retrieval quality, hallucination controls, schema pass rates, and operational risks.
 4. Keep project READMEs aligned with hiring requirements: problem, data, system design, AI method, verification, and limitations.
+
+## Documentation Standard
+
+Each flagship project should include a top-down learning guide that shows:
+
+- the project type, such as web app, data pipeline, ML, RAG/evals, CLI automation, or security workflow;
+- the actual trigger-to-output flow for that project;
+- an interaction table covering input/state, processing component, data/model/external touchpoint, output, verification signal, and failure handling;
+- at least one Mermaid diagram that follows a real user action, command, dataset, or event through the system.
 
 ## Repository Guide
 
