@@ -1,77 +1,19 @@
 # tttksj404
 
-AI/Data Product Engineering portfolio focused on finance, reliable automation, and evidence-backed AI systems.
+금융 서비스에 AI를 붙일 때 틀리면 안 되는 부분은 코드로 지키고, 결과는 수치로 확인하는 개발을 합니다.
 
-## Target Role
+- 관심 직무: 금융 IT·디지털 ICT, AI·데이터 제품 엔지니어, AI 기반 서비스 기획
+- 주로 쓰는 기술: Python, FastAPI, Django, SQL, vLLM, LLM 라우팅·평가 설계
 
-I am building toward roles that connect software engineering, data analysis, and applied AI:
+## 포트폴리오
 
-- Financial IT / Digital ICT engineer
-- AI and data product engineer
-- Data analyst / data scientist for business decision support
-- AI-enabled planning, HR, and operations automation
+프로젝트별 문제·설계 결정·검증 수치를 정리한 사례 모음입니다: **[tttksj404/portfolio](https://github.com/tttksj404/portfolio)**
 
-The common thread is practical: collect data, build reliable systems, apply AI where it improves the workflow, and verify the result with measurable evidence.
-
-## Core Skill Map
-
-| Hiring signal | What I am preparing | Portfolio evidence |
+| 프로젝트 | 한 줄 | 저장소 |
 | --- | --- | --- |
-| Python, SQL, backend/API | Data services, Django/FastAPI-style APIs, local automation tools | [StockPulse AI](https://github.com/tttksj404/stockpulse-ai) and private finance-analysis tools |
-| Data analysis and decision support | News, market, and business data workflows with dashboards and review loops | [StockPulse AI](https://github.com/tttksj404/stockpulse-ai), [strategy-arena](https://github.com/tttksj404/strategy-arena) |
-| AI search, RAG, and LLM application | Retrieval-based reasoning, document/search automation, schema-grounded outputs | Sentinel-30 voice-phishing AI demo in [AI-](https://github.com/tttksj404/AI-) |
-| Evaluation and quality gates | Test-first validation, AI-output heuristics, schema checks, benchmark design | [quiz-validator](https://github.com/tttksj404/quiz-validator) |
-| Financial domain understanding | Investment information, risk notes, backtesting, guardrails, compliance-aware wording | [StockPulse AI](https://github.com/tttksj404/stockpulse-ai), [strategy-arena](https://github.com/tttksj404/strategy-arena) |
-| Communication and product thinking | README-driven project framing, UX flow, release checks, measurable acceptance criteria | Public project docs and demo pages |
-
-## Flagship Projects
-
-### StockPulse AI
-
-Financial news and stock-analysis training service built as a Django MVP.
-
-- Collects or seeds news records, maps them to stocks, and exposes explainable stock issue cards.
-- Provides AI comparison and judgment-training flows without presenting outputs as investment advice.
-- Includes API, responsive UI, public beta guardrails, release checks, and test coverage.
-
-Repo: [github.com/tttksj404/stockpulse-ai](https://github.com/tttksj404/stockpulse-ai)
-
-### Sentinel-30 AI Security Demo
-
-Voice-phishing active-defense demo that frames AI as a financial safety and intelligence pipeline.
-
-- Demo flow: scam call intake, AI bait response, information extraction, risk routing, security-layer decision.
-- Career angle: RAG fallback, structured extraction, privacy-aware evidence handling, benchmarkable AI workflow.
-
-Repo: [github.com/tttksj404/AI-](https://github.com/tttksj404/AI-)
-
-### AI Quality Gate
-
-Validator for AI-generated multiple-choice questions and detectable generation patterns.
-
-- Uses transparent heuristics and calibration against anchor questions.
-- Shows the habit companies increasingly expect from AI work: do not only generate; measure, validate, and document failure modes.
-
-Repo: [github.com/tttksj404/quiz-validator](https://github.com/tttksj404/quiz-validator)
-
-## Current Preparation Focus
-
-1. Strengthen SQL and Python data analysis with small, reproducible datasets.
-2. Turn finance-domain projects into clear case studies with project-specific interaction maps, not just technology lists.
-3. Add RAG/evaluation reports that show retrieval quality, hallucination controls, schema pass rates, and operational risks.
-4. Keep project READMEs aligned with hiring requirements: problem, data, system design, AI method, verification, and limitations.
-
-## Documentation Standard
-
-Each flagship project should include a top-down learning guide that shows:
-
-- the project type, such as web app, data pipeline, ML, RAG/evals, CLI automation, or security workflow;
-- the actual trigger-to-output flow for that project;
-- an interaction table covering input/state, processing component, data/model/external touchpoint, output, verification signal, and failure handling;
-- at least one Mermaid diagram that follows a real user action, command, dataset, or event through the system.
-
-## Repository Guide
-
-- Public flagship repositories are written for recruiters and collaborators.
-- Private repositories contain larger local experiments, operational scripts, or datasets that are not suitable for a public profile.
-- I do not present investment or security demos as production advice. The portfolio focuses on system design, data workflows, validation, and responsible limitations.
+| KeyFin AI 코칭 | LLM은 의도만, 숫자는 시뮬레이터가 계산하는 금융 코치. 동시 8건 응답 9.1배 단축 | [KeyFin](https://github.com/tttksj404/KeyFin) (팀, `ai/` 담당) |
+| Sentinel-30 | 보이스피싱 대응 AI 보안 데모 | [AI-](https://github.com/tttksj404/AI-) |
+| CCTV 모델 선정 실험 | 후보 모델을 같은 조건에서 비교하고 승격 게이트로 판정 | [cctv-model-selection-lab](https://github.com/tttksj404/cctv-model-selection-lab) |
+| AntHill (StockPulse AI) | AI 정답 대신 투자 판단 과정을 훈련하는 Django 서비스 | 비공개 (요청 시 공유) |
+| Strategy Arena | 비용·표본 외 검증을 지킨 전략 백테스터 | [strategy-arena](https://github.com/tttksj404/strategy-arena) |
+| AI 결과 품질 게이트 | AI가 만든 문항의 AI 티를 잡는 규칙 검증기 | [quiz-validator](https://github.com/tttksj404/quiz-validator) |
